@@ -15,7 +15,7 @@ jobs:
           node-version: '20.11.0'
 
       - name: Install dependencies
-        run: npm install
+        run: cd typescript; npm install;
 
       - name: Find and run all test.ts files
         run: |
