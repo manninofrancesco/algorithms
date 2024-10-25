@@ -19,4 +19,4 @@ jobs:
 
       - name: Find and run all test.ts files
         run: |
-          find . -name '*.test.ts' -exec ts-node {} \;
+          find . -name '*.test.ts' -exec npx ts-node {} \;
